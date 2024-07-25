@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(75, 73, 73);
+    width: 100%;
+    height: 500px;
+}
+
+body .wid{
+    background-image:url(./asset/Rectangle\ 236.png);
+    width: 500px;
+    height: 990px;
+    margin-left: 450px;
+}
+
+body button{
+    margin-top:20px;
+    width: 350px;
+    height: 70px;
+    margin-left:80px;
+    color:#FB8500;
+    background-color:#611010;
+}
+
+body .wid button  span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body .yellow{
+    background-color: #FFBC42;
+    margin-top: 70px;
+    width: 470px;
+    height: 825px;
+    margin-left: 15px;
+}
+
+body .yellow .foodCard{
+    width: 400px;
+    height: 180px;
+    margin: 20px;
+}
+
+ body .yellow .foodCard img{
+    width: 450px;
+    height: 150px;
+    margin-top: 30px;
+ }
+
+ body .yellow .foodCard h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    font-size: 35px;
+ }
+
+
+
+
+
